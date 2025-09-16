@@ -1,0 +1,26 @@
+* {
+  text-decoration: none;
+  color: white;
+}
+
+.elemento:hover {
+  transition: 0.2s ease;
+  scale: 1.1;
+  color: blueviolet;
+}
+
+.navbar {
+  display: flex;
+  padding-inline: 20px;
+  padding-block: 30px;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.active {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+  padding: 2px;
+}
