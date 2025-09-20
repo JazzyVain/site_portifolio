@@ -1,6 +1,14 @@
 .container {
-  background-color: black;
+  grid-column: 1;
+  grid-row: 2;
+
   padding: 10px;
-  border-radius: 10px;
-  width: 300px;
+  flex-grow: 1;
+  max-height: 96%;
+  min-height: 56rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  background-color: rgba(0, 0, 0, 0.395);
+  border-right: 1px solid #fcc800;
+  z-index: 1001;
 }

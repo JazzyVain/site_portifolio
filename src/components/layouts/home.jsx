@@ -28,6 +28,6 @@ export default function Home() {
 
 export default function Home() {
   return (
-    <div className={styles.container}></div>
+    <h1>Olá</h1>
   )
 }
